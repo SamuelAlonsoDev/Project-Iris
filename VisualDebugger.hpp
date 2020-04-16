@@ -9,6 +9,7 @@ namespace ProjectIris
     {
         __forceinline void Start() noexcept
         {
+            //Soon it will have more astonishing uses, just wait and see :D
             sf::RenderWindow Window(sf::VideoMode(1200, 600), "Project Iris - Visual Debugger");
             sf::Font font;
             if(font.loadFromFile("C:\\ProjectIris\\Crimson-Bold.ttf"))
