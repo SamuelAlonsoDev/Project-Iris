@@ -8,6 +8,7 @@ namespace ProjectIris
 {
     namespace Demangler
     {
+        //I know it's pretty simple, but i have other priorities, TODO
         __forceinline string Demangle(const string& Name) noexcept
         {
             string name(Name);
