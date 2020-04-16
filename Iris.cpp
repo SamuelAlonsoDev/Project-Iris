@@ -8,7 +8,8 @@
 
 void Execute() noexcept
 {
-	system("cls");
+	system("cls");//I know, i know, it won't be on the final version, it's just that i didn't make the Win32 function work, and
+	//i had some other priorities, so i just leave that by now, don't blame me too much
 	thread t(ProjectIris::Eye::Process);
 	bool Exit = false;
 	while (!Exit)
